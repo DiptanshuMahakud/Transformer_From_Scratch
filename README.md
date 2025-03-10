@@ -23,6 +23,3 @@ The model is capable of performing **Language Modeling tasks** like **Next-Word 
 I added my own understanding, tweaks, and customization to make the project my own.
 
 ---
-
-## 🚀 Project Structure
-
