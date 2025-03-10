@@ -1,12 +1,28 @@
-Transformer from Scratch 🚀
-This is my implementation of the Transformer model from scratch, inspired by the "Attention is All You Need" paper. I built it using PyTorch, trying to keep everything as close to the paper as possible with a few minor tweaks.
+# Transformer from Scratch
 
-The model consists of:
-Embedding Layer for converting tokens to vectors.
-Positional Encoding to inject sequence information.
-Encoder Block with Multi-Head Attention, Feed Forward, and Add & Norm.
-Decoder Block with Masked Attention, Cross Attention, Feed Forward, and Add & Norm.
-Transformer combining the Encoder and Decoder.
-I plan to use this for a language modeling task (next-word prediction).
+This project is an implementation of the Transformer model from the groundbreaking paper **"Attention Is All You Need"** by Vaswani et al. This project was built entirely from scratch without using any high-level transformer libraries like HuggingFace or PyTorch Transformer APIs.
 
-Just a fun project to build the Transformer from scratch! 😎
+The goal was to gain a deep understanding of how Transformers work by coding each component from scratch, including:
+
+- **Multi-Head Attention Mechanism**
+- **Positional Encoding**
+- **Feed Forward Network**
+- **Encoder Block**
+- **Decoder Block**
+- **Add & Norm Layer**
+- **Final Linear Layer + Softmax**
+
+The model is capable of performing **Language Modeling tasks** like **Next-Word Prediction**.
+
+---
+
+## 📜 References
+- **[Attention Is All You Need Paper](https://arxiv.org/abs/1706.03762)**.
+- CampusX YouTube Series on Transformer Implementation.
+
+I added my own understanding, tweaks, and customization to make the project my own.
+
+---
+
+## 🚀 Project Structure
+
